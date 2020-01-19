@@ -1,0 +1,15 @@
+[submodule "3rdParty/Sophus"]
+	path = 3rdParty/Sophus
+	url = https://github.com/strasdat/Sophus.git
+[submodule "3rdParty/ceres-solver"]
+	path = 3rdParty/ceres-solver
+	url = https://github.com/NikolausDemmel/ceres-solver/
+[submodule "3rdParty/Pangolin"]
+	path = 3rdParty/Pangolin
+	url = https://github.com/stevenlovegrove/Pangolin.git
+[submodule "3rdParty/eigen"]
+	path = 3rdParty/eigen
+	url = https://github.com/eigenteam/eigen-git-mirror.git
+[submodule "3rdParty/CLI11"]
+	path = 3rdParty/CLI11
+	url = https://github.com/CLIUtils/CLI11.git
