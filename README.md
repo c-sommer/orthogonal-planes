@@ -106,6 +106,10 @@ You can copy-paste the following BibTex entry:
     title   = {From Planes to Corners: Multi-Purpose Primitive Detection in Unorganized 3D Point Clouds},
     author  = {Sommer, Christiane and Sun, Yumin and Guibas, Leonidas and Cremers, Daniel and Birdal, Tolga},
     journal = {IEEE Robotics and Automation Letters (RA-L)},
+    volume  = {5},
+    number  = {2},
+    pages   = {1764--1771},
+    doi     = {10.1109/LRA.2020.2969936},
     year    = {2020}
 }
 ```
