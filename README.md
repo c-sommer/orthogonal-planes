@@ -3,8 +3,9 @@
 This repository provides the code accompanying the paper
 _From Planes to Corners: Multi-Purpose Primitive Detection in Unorganized 3D Point Clouds_
 by C. Sommer, Y. Sun, L. Guibas, D. Cremers and T. Birdal,
-accepted for Publication in IEEE Robotics and Automation Letters (RA-L) 2020.
-It is a basic demonstration of how our method works and one possible option to implement it.
+published in IEEE Robotics and Automation Letters (RA-L) 2020 and presented at the International Conference on Robotics and Automation (ICRA) 2020.
+The paper is available at [IEEE Xplore](https://doi.org/10.1109/LRA.2020.2969936), and a preprint can be found on [arXiv](https://arxiv.org/abs/2001.07360).
+The code in this repository is a basic demonstration of how our method works and one possible option to implement it.
 We simplified some things compared to our original implementation (e.g. subsampling and clustering), in order to not depend on code that we cannot publish.
 The core functionality still remains the same.
 
@@ -23,7 +24,7 @@ for all reference points xr
     choose set of pair points
     for all pair points xi
         compute F(xr,xi)
-        if F1 > threshold
+        if |F1| < threshold
             compute (rho, theta)
             vote
         end
