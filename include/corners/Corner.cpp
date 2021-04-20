@@ -50,7 +50,7 @@ Eigen::Matrix3f Corner::K = Eigen::Matrix3f::Identity();
 std::vector<size_t> Corner::eval_candidate(const std::vector<Eigen::Vector3f>& points, const std::vector<Eigen::Vector3f>& normals,
                                            Vec3 n1, double d1, Vec3 n2, double d2, Vec3 n3, double d3, KDTree& index) {
 
-    const size_t threshold = 100;
+    const size_t threshold = 5;
 
     Vec3 p = -(d1 * n1 + d2 * n2 + d3 * n3);
     Eigen::Vector3f pf = p.cast<float>();

@@ -64,7 +64,7 @@ int main(int argc, char** argv) {
     std::string ply_file;
     int min_votes = 5;
     double d_min = .1, d_max = 1.;
-    int sampling = 50;
+    int sampling = 10;
 
     CLI::App app{"Detect and refine orthogonal plane configurations"};
     app.add_option("--img", ply_file, "ply file path, from data/")->required();
